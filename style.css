@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,700;1,700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+header {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+h2 {
+  margin-top: 5vh;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+span {
+  font-weight: 800;
+  color: #000;
+}
+p {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24.24px;
+  margin-bottom: 38px;
+}
+.inpbutton {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+}
+.inputbox {
+  display: flex;
+}
+.input {
+  width: 637px;
+  height: 56px;
+  padding: 5px 0px 5px 30px;
+  border-radius: 50px;
+  border: 1px solid #c2d3ff;
+  outline: none;
+}
+::placeholder {
+  color: hsl(223, 100%, 88%);
+  font-size: 16px;
+}
+.button {
+  margin-top: 10px;
+  width: 200px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.illustration {
+  width: 644.8px;
+  height: 403.5px;
+  margin-top: 94px;
+}
+.icons {
+  width: 204px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51.5px;
+  gap: 25px;
+}
+.media-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 11.71px;
+}
+.facebook {
+  width: 32px;
+  height: 31px;
+  border-radius: 50px;
+  border: 0.92px solid #4c7bf3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4c7bf3;
+}
+.twitter {
+  width: 32px;
+  height: 31px;
+  border-radius: 50px;
+  border: 0.92px solid #4c7bf3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4c7bf3;
+}
+.instagram {
+  width: 32px;
+  height: 31px;
+  border-radius: 50px;
+  border: 0.92px solid #4c7bf3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4c7bf3;
+}
+.footer-txt {
+  width: 203px;
+  height: 15px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14.54px;
+  padding-bottom: 70px;
+}
